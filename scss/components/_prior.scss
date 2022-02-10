@@ -1,0 +1,33 @@
+.prior-list {
+  display: flex;
+  justify-content: center;
+}
+
+.prior-box-icon {
+  width: 270px;
+  height: 120px;
+  background: var(--menu-team-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prior-title-list {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.prior-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.prior-after-title {
+  line-height: 1.71; /* or 171% */
+  width: 270px;
+  color: var(--contact-color);
+}
