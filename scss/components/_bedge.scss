@@ -5,7 +5,7 @@
   padding-top: 0px;
 }
 
-.bedge-list {
+.bedge__list {
   display: flex;
   width: 370px;
   background: var(--title-studio-color);
@@ -17,8 +17,8 @@
   }
 }
 
-.bedge-link {
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.bedge__link {
+  transition: box shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -62,7 +62,7 @@
   border-bottom: 1px solid #eeeeee;
 }
 
-.bedge-title {
+.bedge__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2; /* identical to box height, or 200% */
@@ -71,7 +71,7 @@
   margin-bottom: 4px;
 }
 
-.bedge-after-title {
+.bedge__title-after {
   font-size: 16px;
   line-height: 1.87; /* identical to box height, or 187% */
   color: var(--contact-color);

@@ -1,4 +1,4 @@
-.prior-list {
+.prior__list {
   display: flex;
   justify-content: center;
 }
@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.prior-title-list {
+.prior__title-list {
   font-style: normal;
   font-weight: bold;
   line-height: 1.14;
@@ -22,11 +22,11 @@
   margin-bottom: 10px;
 }
 
-.prior-item:not(:last-child) {
+.prior__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.prior-after-title {
+.prior__title-after {
   line-height: 1.71; /* or 171% */
   width: 270px;
   color: var(--contact-color);
